@@ -148,6 +148,9 @@ a {
 }
 
 @media (max-width: 360px) {
+  body {
+    background: salmon;
+  }
   .name-block > strong {
     font-size: 1.5rem;
   }
