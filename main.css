@@ -15,14 +15,14 @@ html {
   flex-direction: column;
   border: thin solid black;
   align-items: center;
-  height: 40%;
+  height: 40rem;
   width: 100%;
 
 }
 
 .logo {
   width: 50%;
-  height: 20%;
+  height: 40rem;
   border: thin solid red;
 }
 
