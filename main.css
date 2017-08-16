@@ -29,13 +29,13 @@ html {
   flex-direction: column;
   align-items: center;
   line-height: 7rem;
-  
+  border: thin dotted green;
 }
 
 .name-block > strong {
   margin-top: -10%;
   font-size: 5rem;
-  border: thin dotted purple;
+ 
 }
 
 .name-block > span {
