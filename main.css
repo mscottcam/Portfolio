@@ -35,6 +35,7 @@ html {
 .name-block > strong {
   margin-top: -10%;
   font-size: 5rem;
+  border: thin dotted purple;
 }
 
 .name-block > span {
