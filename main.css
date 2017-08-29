@@ -13,7 +13,7 @@ html {
 .top {
   display: flex;
   flex-direction: column;
-  border: thin solid black;
+  /* border: thin solid black; */
   align-items: center;
   height: 40rem;
   width: 100%;
@@ -23,7 +23,7 @@ html {
 .logo {
   width: 50%;
   height: 30rem;
-  border: thin solid red;
+  /* border: thin solid red; */
 }
 
 .name-block {
@@ -31,7 +31,7 @@ html {
   flex-direction: column;
   align-items: center;
   line-height: 7rem;
-  border: thin dotted green;
+  /* border: thin dotted green; */
 }
 
 .name-block > strong {
@@ -51,11 +51,10 @@ html {
 }
 
 .links {
-  width: 70%;
-  border: thin solid yellow;
+  width: 90%;
   display: flex;
   justify-content: space-around;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 5%; 
 }
 
@@ -69,6 +68,10 @@ a {
   color: #5a77da;
 }
 
+.favicons > a {
+  padding: 0 0.5rem;
+}
+
 .favicons > a:hover {
   color: #343434;
   font-size: 2.7rem;
@@ -80,8 +83,8 @@ a {
   align-items: center;
   width: 90%;
   padding: 5%;
-  font-size: 2rem;
-  border: thin solid orange;
+  font-size: 4rem;
+  /* border: thin solid orange; */
 }
 /* 
 @media (min-width: 400px) {
