@@ -13,17 +13,14 @@ html {
 .top {
   display: flex;
   flex-direction: column;
-  /* border: thin solid black; */
   align-items: center;
   height: 40rem;
   width: 100%;
-
 }
 
 .logo {
   width: 50%;
   height: 30rem;
-  /* border: thin solid red; */
 }
 
 .name-block {
@@ -31,13 +28,11 @@ html {
   flex-direction: column;
   align-items: center;
   line-height: 7rem;
-  /* border: thin dotted green; */
 }
 
 .name-block > strong {
   margin-top: -10%;
   font-size: 5rem;
- 
 }
 
 .name-block > span {
@@ -73,8 +68,8 @@ a {
 }
 
 .favicons > a:hover {
-  color: #343434;
-  font-size: 2.7rem;
+  color: salmon;
+  /* font-size: 2.7rem; */
 }
 
 .main-content {
@@ -84,19 +79,75 @@ a {
   width: 90%;
   padding: 5%;
   font-size: 4rem;
-  /* border: thin solid orange; */
 }
-/* 
-@media (min-width: 400px) {
-  .logo {
-    width: 40%;
+
+@media (min-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  .top {
+    flex-direction: row;
+    justify-content: center;
+    width: 99vw;
+    height: 25vh;
+    margin-top: 3rem;
+  }
+  
+  .logo {
+    width:30%;
+    height: 15rem;
+    margin-left: -3rem;
+  }
+
+  .name-block {
+    line-height: 2rem;
+    height: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
   .name-block > strong {
-    margin-top: -10%;
     font-size: 2rem;
   }
   
   .name-block > span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;    
   }
-} */
+
+  .links {
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+  .main-content {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .logo {
+      width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+      width: 220px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+      width: 220px;
+  }
+  .links {
+    width: 50%;
+    font-size: 1.5rem;
+  }
+  .main-content {
+    width: 70%;
+    padding: 5%;
+  }
+}
