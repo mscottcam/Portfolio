@@ -82,12 +82,14 @@ body {
 }
 
 .logo {
+  /* border: thin solid black; */
   height: 12rem;
   width: 12rem;
 }
 
 .name-block {
-  font-size: 1.7rem;
+  margin-top: -0.8rem;
+  font-size: 2rem;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -98,7 +100,7 @@ body {
 
 .name {
   height: 8rem;
-  line-height: 2rem;
+  line-height: 2.3rem;
   text-align: center;
   padding-bottom: 0.5rem;
 }
@@ -167,7 +169,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
