@@ -171,7 +171,7 @@ body {
   line-height: 1.5;
 }
 
-@media (min-width: 450px) {
+@media only screen and (min-width: 450px) {
   body, .top-header, .main {
     width: 23rem;
   }
@@ -181,7 +181,7 @@ body {
   } 
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
   body, .top-header, .main {
     width: 45rem;
   }
