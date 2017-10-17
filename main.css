@@ -56,7 +56,7 @@ html {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color:#003166;
-  background: #a2a998;
+  background: #ecf0f1;
   display: flex;
   justify-content: center;
   /* border: thin solid black;     */
@@ -156,7 +156,7 @@ body {
   padding: 0.5rem;
   border-radius: 8px;
   text-decoration: none; 
-  color: #a2a998;
+  color: #ecf0f1;
 }
 
 .introduction {
@@ -227,7 +227,6 @@ body {
   .links > a:hover {
     background: #a2a998;
     color: #003166;
-    border: 0.15rem solid #003166;
   }
 
   .favicons, .about, .work {
