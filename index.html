@@ -13,34 +13,64 @@
 
   <body>
     <header class="top-header">
-      <img class="logo" src="./img/Logo_blue.png" alt=""/>
+      <img class="logo" src="./img/Logo_darkpurple.png" alt=""/>
       <div class="name-block">
-        <h3 class="name"><strong>Hello</strong>, I'm <br /> M. Scott Cameron</h3>
+        <h1 class="name">Hello, I'm <br /> M. Scott Cameron</h1>
       </div>
     </header>
     <main class="main" role="main">
       <nav class="links">
-        <a class="work" href="#">My Work</a>
+        <a class="work-button" href="#projects">Projects</a>
         <div class="favicons">
             <a href="https://www.linkedin.com/in/m-scott-cameron" target="_blank"><i class="fa fa-linkedin-square"></i></a>
             <a href="https://github.com/mscottcam" target="_blank"><i class="fa fa-adjust fa-github"></i></a>
             <a href="mailto:me@mscottcameron.com"><i class="fa fa-envelope"></i></a>
         </div>
-        <a class="about" href="#">About Me</a>
+        <a class="about-button" href="#about-me">Résumé</a>
       </nav>
       <section class="introduction">
         <p>
-          I'm a developer based out of San Antonio and I wish to use my skills simply to help solve problems for people. I especially love using code as a simplifying and organizing tool to get us to the meat of life without worrying if the background is crumbling...   
+          I'm a javascript developer based out of San Antonio and I wish to use my skills simply to help solve problems for people. I especially love using code as a simplifying and organizing tool to get us to the meat of life without worrying if the background is crumbling...   
         </p>
       </section>
-      <section class="projects hidden">
-        <h3>Projects!</h3>
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project prioritize">
+          <h3>Prioritize</h3>
+          <p>A task management system that allows users to organize their projects to make the most of their time by focusing on what is important.</p>
+          <a href="https://prioritize-app.herokuapp.com/">Demo</a>
+          <a href="https://github.com/mscottcam/Prioritize">Github</a>
+        </div>
+         <div class="project calendar">
+          <h3>Calendar</h3>
+          <p>A simple mobile calendar built to explore the React Native world!</p>
+          <a href="https://github.com/mscottcam/calendar">Github</a>
+        </div>
+        <div class="project lochness">
+          <h3>Lochness-ness-Learner</h3>
+          <p>A language learning app that utilizes spaced repition to become familiar to common words used in Scot's Gaelic.</p>
+          <a href="https://loch-ness-learner.herokuapp.com/">Demo</a>
+          <a href="https://github.com/mscottcam/Loch-ness-Learner">Github</a>
+        </div>
+        <div class="project mapper">
+          <h3>Emotion-mapper</h3>
+          <p>An app to help users track and educate themselves about their emotions.</p>
+          <a href="https://emotion-mapper.herokuapp.com/emotions">Demo</a>
+          <a href="https://github.com/mscottcam/emotion-mapper">Github</a>
+        </div>
+        <div class="project dashboard">
+          <h3>Observer Dashboard</h3>
+          <p>A simple gui dashboard that students can view and contribute to by adding useful resources such as links posted in slack, or material shared by mentors.</p>
+          <a href="https://observer-dashboard.herokuapp.com/">Demo</a>
+          <a href="https://github.com/mscottcam/Observer-Dashboard">Github</a>
+        </div>
+        
       </section>
-      <section class="about-me hidden">
+      <section id="about-me" class="about-me">
         <h3>About me!</h3>
-      </section>
-      <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-      <script type="text/javascript" src="js/app.js"></script>
+       </section>
+       <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>  
     </main>
   </body>
 </html>
