@@ -167,15 +167,19 @@ body {
 }
 
 .introduction {
-  /* border: 2px solid #003166;  */
   margin: 1.2rem 0 3rem 0;
   padding-top: 0rem; 
   width: 17rem;
+  height: 77rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+.introduction p {
+  margin-bottom: 2rem;
 }
 
 .projects {
@@ -281,6 +285,7 @@ body {
 
   .introduction {
     width: 20rem;
+    height: 58rem;
   } 
 
   .projects {
@@ -359,7 +364,7 @@ body {
     width: 39rem;
     padding-top: 3rem; 
     text-align: justify; 
-
+    height: 42rem;
   }
 
   .projects {
