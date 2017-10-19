@@ -134,9 +134,10 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20rem;
-  height: 230rem;
+  height: 250rem;
   padding: 0;
   margin: 0;
+  /* border: thin solid black; */
 }
 
 .links {   
@@ -181,9 +182,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 65rem;
+  height: 80rem;
   margin-bottom: 3rem;
-  /* border: thin solid black; */
   width: 17rem;
 }
 
@@ -260,6 +260,13 @@ body {
   font-weight: bold;
 }
 
+.education {
+  margin: 2rem 0;
+  width: 16rem;
+  border-left: 0.2rem solid #383650;
+  padding-left: 0.8rem;
+}
+
 .education > p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -275,6 +282,23 @@ body {
   .introduction {
     width: 20rem;
   } 
+
+  .projects {
+    width: 24rem;
+    height: 73rem;
+  }
+
+  .projects > h2 {
+    width: 19rem;
+  }
+
+  .project {
+    width: 20rem;
+  }
+
+  .about-me {
+    height: 117rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -337,11 +361,30 @@ body {
     text-align: justify; 
 
   }
+
+  .projects {
+    width: 40rem;
+     height: 65rem; 
+  }
+
+  .projects > h2 {
+    width: 31rem;
+  } 
+
+   .project {
+    width: 35rem;
+  } 
+
+   .about-me {
+    height: 100rem;
+  }  
+
 } 
 
 @media (min-width: 1024px) {
   .main {
     width: 50rem;
+    height: 200rem;
   }
 
   .introduction {
@@ -350,6 +393,15 @@ body {
   }
 
   .projects {
-    width: 45rem;
+     border: thin solid black; 
+    width: 50rem;
   }
+
+    .project {
+    width: 42rem;
+  }  
+
+    .about-me {
+    height: 95rem;
+  }   
 } 
