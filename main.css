@@ -77,10 +77,11 @@ body {
   flex-direction: column;
   align-items: center;
   height: 16rem;
-  width: 17rem;
-   /* border: thin solid black; */
-   margin-bottom: 1rem; 
+  width: 17rem;  
+  margin-bottom: 1rem; 
 }
+
+
 
 .logo {
   /* border: thin solid black; */
@@ -133,6 +134,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20rem;
+  height: 230rem;
   padding: 0;
   margin: 0;
 }
@@ -179,7 +181,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 2000px;
+  height: 65rem;
   margin-bottom: 3rem;
   /* border: thin solid black; */
   width: 17rem;
@@ -218,13 +220,52 @@ body {
   color: #ecf0f1;
 }
 
-
-
 .about-me {
-  background: #bdc3c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 122rem;
+  margin-bottom: 3rem;
   width: 17rem;
-  height: 500px;
+  border-bottom: 0.3rem double #383650;
 }
+
+
+.about-me > h2 {
+  border-top: 0.3rem double #383650; 
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  width: 15rem;
+}
+
+.about-me > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.work-exp {
+  margin: 1.5rem 0;
+  width: 16rem;
+  border-left: 0.2rem solid #383650;
+  padding-left: 0.8rem;
+}
+
+.work-exp > p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.work-exp p, .education p {
+  font-weight: bold;
+}
+
+.education > p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+
 
 @media only screen and (min-width: 450px) {
   body, .top-header, .main {
