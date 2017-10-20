@@ -84,7 +84,6 @@ body {
 
 
 .logo {
-  /* border: thin solid black; */
   height: 12rem;
   width: 12rem;
 }
@@ -134,10 +133,9 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20rem;
-  height: 300rem;
+  height: 290rem;
   padding: 0;
   margin: 0;
-  border: thin solid green;
 }
 
 .links {   
@@ -155,7 +153,6 @@ body {
 .work-button {
   order: 2;
   margin-left: 1rem;
-  /* transition: scroll 750ms ease-in 750ms; */
 }
 
 .links > a {
@@ -170,13 +167,12 @@ body {
   margin: 1.2rem 0 3rem 0;
   padding-top: 0rem; 
   width: 17rem;
-  height: 70rem;
+  height: 63rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1.2rem;
   line-height: 1.5;
-  border: thin solid red;
 }
 
 .introduction p {
@@ -194,7 +190,6 @@ body {
 
 .projects > h2 {
   border-top: 0.3rem double #383650; 
-  /* margin-top: 1rem; */
   padding: 2rem 0 0 0;
   text-align: center;
   font-size: 2rem;
@@ -232,7 +227,6 @@ body {
   height: 130rem;
   margin-bottom: 3rem;
   width: 17rem;
-  border-bottom: 0.3rem double #383650;
 }
 
 
@@ -277,6 +271,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.footer {  
+  display: flex;
+  justify-content: center;
+  border-top: 0.3rem double #383650; 
+  padding-top: 2rem; 
+  width: 16rem;  
+}
+
 
 
 @media only screen and (min-width: 450px) {
@@ -284,9 +286,13 @@ body {
     width: 23rem;
   }
 
+  .main {
+    height: 265rem;
+  }
+
   .introduction {
     width: 20rem;
-    height: 58rem;
+    height: 55rem;
   } 
 
   .projects {
@@ -305,12 +311,21 @@ body {
   .about-me {
     height: 117rem;
   }
+
+  .footer {
+    width: 20rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
   body, .top-header, .main {
     width: 45rem;
   }
+
+  .main {
+    height: 230rem;
+  }
+
   .top-header {
     height: 24rem;
     margin: 0;
@@ -335,7 +350,6 @@ body {
 
   .name {
     line-height: 5.2rem;
-    line-spacing: 5rem;
   }
 
   .links {
@@ -351,10 +365,6 @@ body {
     color: #003166;
   }
 
-  .favicons, .about-button, .work-button {
-    /* border: thin solid black; */
-  }
-
   .about-button {
     margin-left: 1.5rem;
   }
@@ -365,12 +375,12 @@ body {
     width: 39rem;
     padding-top: 3rem; 
     text-align: justify; 
-    height: 42rem;
+    height: 45rem;
   }
 
   .projects {
     width: 40rem;
-     height: 65rem; 
+    height: 65rem; 
   }
 
   .projects > h2 {
@@ -383,30 +393,41 @@ body {
 
    .about-me {
     height: 100rem;
-  }  
+    width: 40rem;
+    margin-top: 0;
+  } 
+  
+  .footer {
+    width: 30rem;
+  }
 
 } 
 
 @media (min-width: 1024px) {
   .main {
     width: 50rem;
-    height: 200rem;
+    height: 230rem;
   }
 
   .introduction {
-     /* border: thin solid black;  */
     width: 45rem;
+    height: 38rem;
   }
 
   .projects {
     width: 50rem;
   }
 
-    .project {
+  .project {
     width: 42rem;
   }  
 
-    .about-me {
+  .about-me {
     height: 95rem;
-  }   
+    width: 50rem;
+  }
+  
+  .footer {
+    width: 40rem;
+  }
 } 
