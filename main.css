@@ -279,6 +279,14 @@ body {
   width: 16rem;  
 }
 
+.footer a {
+  color: #383650;
+}
+
+.footer a:hover {
+  color: blue;
+}
+
 
 
 @media only screen and (min-width: 450px) {
@@ -360,9 +368,9 @@ body {
     margin-bottom: 0;
   }
 
-  .links > a:hover {
+  .links > a:hover, .project > a:hover {
     background: #a2a998;
-    color: #003166;
+    color: #383650;
   }
 
   .about-button {
