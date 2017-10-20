@@ -133,7 +133,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20rem;
-  height: 290rem;
+  height: 292rem;
   padding: 0;
   margin: 0;
 }
@@ -164,10 +164,10 @@ body {
 }
 
 .introduction {
-  margin: 1.2rem 0 3rem 0;
+  margin: 1.2rem 0 0.5rem 0;
   padding-top: 0rem; 
   width: 17rem;
-  height: 63rem;
+  height: 70rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -412,6 +412,7 @@ body {
   .introduction {
     width: 45rem;
     height: 38rem;
+    margin-bottom: 2rem;
   }
 
   .projects {
