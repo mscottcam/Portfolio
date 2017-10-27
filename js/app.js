@@ -19,3 +19,10 @@ $('a[href*="#"]')
       }
     }
   });
+
+window.copyText.addEventListener('click', function(e) {
+  e.preventDefault();
+  this.select();
+  document.execCommand('copy');
+  alert('copied');
+});
