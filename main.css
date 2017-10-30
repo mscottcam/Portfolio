@@ -151,7 +151,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 1rem;
-  border-bottom: 0.3rem double #383650;
+  /* border-bottom: 0.3rem double #383650; */
 }
 
 .work-button {
@@ -194,7 +194,7 @@ body {
 }
 
 .projects > h2 {
-  border-top: 0.3rem double #383650; 
+  /* border-top: 0.3rem double #383650;  */
   padding: 2rem 0 0 0;
   text-align: center;
   font-size: 2rem;
@@ -237,7 +237,7 @@ body {
 
 
 .about-me > h2 {
-  border-top: 0.3rem double #383650; 
+  /* border-top: 0.3rem double #383650;  */
   padding: 2rem 0 1rem 0;
   text-align: center;
   font-size: 2rem;
@@ -282,7 +282,8 @@ body {
   justify-content: center;
   border-top: 0.3rem double #383650; 
   padding-top: 2rem; 
-  width: 16rem;  
+  width: 100vw;
+  font-size: 1.2rem;
 }
 
 .footer a {
@@ -326,9 +327,10 @@ body {
     height: 117rem;
   }
 
-  .footer {
+  .about-me > h2 {
     width: 20rem;
   }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -410,10 +412,6 @@ body {
     width: 40rem;
     margin-top: 0;
   } 
-  
-  .footer {
-    width: 30rem;
-  }
 
 } 
 
@@ -442,7 +440,4 @@ body {
     width: 50rem;
   }
   
-  .footer {
-    width: 40rem;
-  }
 } 
